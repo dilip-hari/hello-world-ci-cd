@@ -1,0 +1,8 @@
+stages:
+  - test
+
+hello-world-job:
+  stage: test
+  script:
+    - echo "Running Hello World Program"
+    - python3 main.py
