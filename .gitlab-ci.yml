@@ -9,4 +9,3 @@ hello-world-job:
     - uname -a
     - python3 --version
     - cat /etc/os-release
-    - docker --version
