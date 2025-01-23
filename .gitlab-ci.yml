@@ -7,7 +7,8 @@ hello-world-job:
     - echo "Running Hello World Program"
     - python3 main.py
     - uname -a
-    - lsbrelease -a
+    - lsb_release -a
     - python3 --version
     - node --version
     - cat /etc/os-release
+    - docker --version
