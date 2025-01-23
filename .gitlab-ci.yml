@@ -6,3 +6,8 @@ hello-world-job:
   script:
     - echo "Running Hello World Program"
     - python3 main.py
+    - uname -a
+    - lsbrelease -a
+    - python3 --version
+    - node --version
+    - cat /etc/os-release
