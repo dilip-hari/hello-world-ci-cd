@@ -8,6 +8,6 @@ hello-world-job:
     - python3 main.py
     - uname -a
     - python3 --version
-    - node --version"
+    - node --version
     - cat /etc/os-release
     - docker --version
