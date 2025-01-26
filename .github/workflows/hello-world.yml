@@ -3,10 +3,10 @@ name: Hello World CI
 on:
   push:
     branches:
-      - main
+      - testing-branch
   pull_request:
     branches:
-      - main
+      - testing-branch
 
 jobs:
   test:
